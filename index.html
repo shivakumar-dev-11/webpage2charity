@@ -4,14 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>charity</title>
+  
+
   <style> 
-.lobby{ display: flex;
+
+.body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.lobby{ 
+   
+   display: flex;
  justify-content: center;
   background-image: url(mercy_files/h1_hero1.jpg.webp)  ;
   height: 850px;
   background-repeat:  no-repeat;
   justify-content: space-around;
-  
+ 
   
 }
 
@@ -37,19 +47,63 @@
     color: rgb(119, 168, 46);
   }
 .lobby2{display: flex;
-  justify-content: space-between;
-  gap: 100px;
+  justify-content: space-around;
+  
   background-color:#FDF3EB;
   padding: 60px;
   
   bottom: 30px;
 }
+
+#viewbutton{
+  padding: 20px 30px ;
+  border-radius: 10px;
+  background-color: transparent;
+}
+#viewbutton:hover{
+  cursor: pointer;
+  background-color: orangered;
+  color: whitesmoke;
+  transition: 0.3s;
+  
+}
+#donatebutton{
+   padding: 20px 30px ;
+  border-radius: 10px;
+  background-color: transparent;
+}
+#donatebutton:hover{
+  cursor: pointer;
+  background-color: orangered;
+  color: whitesmoke;
+  transition: 0.3s;
+  
+
+}
+.alpha{
+  width: 300px;
+}
+
 .lobby3{ padding: 100px;
   padding-bottom: 350px;
   
   position: relative;
 
   
+}
+.heart{
+  width: 300px;
+}
+#discover{
+  padding: 20px 30px ;
+  border-radius: 10px;
+  background-color: transparent;
+}
+#discover:hover{
+  cursor: pointer;
+  background-color: orangered;
+  color: whitesmoke;
+  transition: 0.3s;
 }
 .img3{
   position: absolute;
@@ -61,7 +115,7 @@
 }
 .row{
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 .owner{
   display: flex;
@@ -75,7 +129,16 @@
 }
 #ss{
   padding: 20px 30px;
+  border-radius: 10px;
+  background-color: transparent;
 }
+#ss:hover{
+  cursor: pointer;
+  background-color: orangered;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
 .orange{
   background-color: orangered;
   padding: 100px;
@@ -105,12 +168,18 @@ padding-bottom: 150px;
   background-color: #212540;
   display: flex;
 }
-.vk{
-  list-style: none;
+
+
+#roko{
+   padding: 20px 30px;
+  border-radius: 10px;
+  background-color: orangered;
 }
-#roko{background-color: orangered;
-  padding:20px 30px ;
-  border-radius: 5px;
+#roko:hover{
+   cursor: pointer;
+  background-color:transparent;
+  color: whitesmoke;
+  transition: 0.3s;
 }
 .copy{
   text-align: center;
@@ -126,7 +195,10 @@ padding-bottom: 150px;
       <li> HOME</li>
       <li> WHO WE ARE ? </li>
       <li> ABOUT US </li>
+      <li>BLOGS </li>
+       <li> PROGRAMS</li>
       <li> contact us: 9063171589</li>
+     
     </ul>
     </div>
     <div > 
@@ -137,20 +209,21 @@ padding-bottom: 150px;
   
   <div class="lobby2"> 
     <div><img src="mercy_files/photo2"></div>
-     <div alpha> <h3 id="up"> upcoming program</h3>
+    <div class="alpha">
+       <h3 id="up"> upcoming program</h3>
     <h1> Donate vitamin B12 supply program</h1>
     <h4> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
-     <div> <button> Donate now</button>
-         <button> View program</button></div>
+     <div > <button id="donatebutton" > Donate now</button>
+      <button id="viewbutton"> View program</button></div>
   </div>
 
   </div>
      <br> 
      <div class="lobby3"> 
       <div  class="img3"> <img src="mercy_files/photo3" alt=""></div>
-      <div> <h3> about us </h3>
-         <h1> We are tender heart charity foundation.</h1>
-      <h4> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
+      <div class="heart"> <h3 style="color: lightgreen;"> about us </h3>
+         <h1 style="color: #212540; font-weight: 700;"> We are tender heart charity foundation.</h1>
+      <h4 style="font-weight: 800;"> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
       
     </div>
     <div >
@@ -158,17 +231,65 @@ padding-bottom: 150px;
      </div>
 <br> 
   <div class="row"> 
-      <div>
+      <div style=" background-color: rgb(179, 173, 173) ; margin-left: 30PX;">
         <img src="mercy_files/row-image-1" height="300px"width="450px" >
-        <h1> Help the ecosystems</h1>
-        <h3> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3>
+        <h1 style="  cursor: pointer;color: orangered;"> Help the ecosystems</h1>
+        <h3 style="width: 400PX;"> Sedac codio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3>
+       <DIV style="display: flex;"> 
+          <div >
+           <H2 style="padding-left: 20px; color:greenyellow;"> $67,845</H2>
+           <ul style="list-style: none;color: #2f397b;"> <li> Goal</li></ul>
+          </div>
+          <div> 
+            <H2 style="padding-left: 20px; color:greenyellow;"> $48,845</H2>
+           <ul style="list-style: none;color: #2f397b;"> <li> Raised</li></ul>
+          </div>
+          <div style="padding-top: 20px; padding-left: 80px;"> <button style="padding: 20px 30px; cursor: pointer; background-color: orangered; color: whitesmoke; border-radius: 10px;"  > DONATE</button></div>
+       </DIV>
+      
+      
       </div>
-      <div><img src="mercy_files/row2photo"  height="300px " width="450px">
-      <h1>Donate Vitamin B12 Program</h1>
-    <h3> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3></div>
-      <div><img src="mercy_files/rowimg3.webp"  height="300px " width="450px">
-      <h1> View Savers In Deworm Program</h1>
-    <h3> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3> </div>
+      <div style="background-color:rgb(179, 173, 173)"><img src="mercy_files/row2photo"  height="300px " width="450px">
+      <h1 style="  cursor: pointer;color: orangered;">Donate Vitamin B12 Program</h1>
+    <h3 style="width: 400PX;"> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3>
+  
+  <DIV style="display: flex;"> 
+          <div >
+           <H2 style="padding-left: 20px;color:greenyellow;"> $67,845</H2>
+           <ul style="list-style: none;color: #2f397b;"> <li> Goal</li></ul>
+          </div>
+          <div> 
+            <H2 style="padding-left: 20px;color:greenyellow;"> $48,845</H2>
+           <ul style="list-style: none; color: #2f397b;"> <li> Raised</li></ul>
+          </div>
+          <div style="padding-top: 20px; padding-left: 80px;"> <button style="padding: 20px 30px; cursor: pointer; background-color: orangered; color: whitesmoke; border-radius: 10px;"  > DONATE</button></div>
+  </DIV>
+  
+  </div>
+      <div style="background-color:rgb(179, 173, 173)" ><img src="mercy_files/rowimg3.webp"  height="300px " width="450px">
+      <h1 style="  cursor: pointer;color: orangered;"> View Savers In Deworm Program</h1>
+    <h3 style="width: 390PX;"> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3> 
+  <DIv style="display: flex;"> 
+          <div >
+           <H2 style="padding-left: 20px;color:greenyellow;"> $67,845</H2>
+           <ul style="list-style: none;color: #2f397b;"> <li> Goal</li></ul>
+          </div>
+          <div> 
+            <H2 style="padding-left: 20px;color:greenyellow;"> $48,845</H2>
+           <ul style="list-style: none;color: #2f397b;"> <li> Raised</li></ul>
+          </div>
+          <div style="padding-top: 20px; padding-left: 80px;"> <button style="padding: 20px 30px; cursor: pointer; background-color: orangered; color: whitesmoke; border-radius: 10px;"  > DONATE</button></div>
+ </DIv>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   </div> 
 <br> 
 <div class="owner"> 
@@ -192,13 +313,13 @@ padding-bottom: 150px;
   <div class="orange1">
     <div class="food"><img src="mercy_files/food.svg">
     <h1 id="pure"> Pure Food & Water</h1>
-  <h3>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
+  <h3 style="width:300px;">Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
    <div class="food1"> <img src="mercy_files/services2.svg">
   <h1 id="health">Health & Medicine</h1>
-  <h3> Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
+  <h3 style="width: 300px;"> Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
    <div class="food2"><img src="mercy_files/services3.svg">
   <h1 id="education"> Education</h1>
-    <h3> Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
+    <h3 style="width: 300px;"> Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
   </div>
 </div>
 <br> 
@@ -208,33 +329,33 @@ padding-bottom: 150px;
     <h3> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua.</h3>
    
     </div>
-    <div > 
+    <div style="padding-left: 150px;" > 
       <h1> Navigation</h1>
 
-   <div class="vk"> 
-    <ul>
-     <li> Home</li>
-     <li> About</li>
-     <li> service</li>
-     <li> blog</li>
-     <li> contact</li>
+   <div > 
+    <ul >
+     <li style="list-style: none; cursor: pointer; padding-bottom: 10px; "> Home</li>
+     <li style="list-style: none; cursor: pointer; padding-bottom: 10px;"> About</li>
+     <li style="list-style: none; cursor: pointer; padding-bottom: 10px;"> service</li>
+     <li style="list-style: none; cursor: pointer;padding-bottom: 10px;"> blog</li>
+     <li style="list-style: none; cursor: pointer;padding-bottom: 10px; "> contact</li>
 
     </ul> 
    </div>
   </div>
 
 
-    <div class="us"> 
-      <h1> contact us</h1>
+    <div style="padding-left: 150px;"> 
+      <h1 > contact us</h1>
       <ul> 
-        <li> 4486 Richards Avenue, Modesto CA - 95354</li>
-        <li>209-818-6041</li>
-        <li>charity90@gmail.com</li>
+        <li style="list-style: none; cursor: pointer; padding-bottom: 30px;" >  4486 Richards Avenue, Modesto CA - 95354</li>
+        <li style="list-style: none; cursor: pointer; padding-bottom: 30px;">209-818-6041</li>
+        <li style="list-style: none; cursor: pointer; padding-bottom: 30px;" >charity90@gmail.com</li>
       </ul>
     </div>
-    <div> 
+    <div style="padding-left: 150px;"> 
       <h1> support</h1>
-      <h3> When a child gets access to good food, it can change.</h3>
+      <h3 style="width: 800px; width: 300px;"> When a child gets access to good food, it can change.</h3>
       <div > <button id="roko"> Join us today </button></div>
     </div>
     <hr>
@@ -243,6 +364,6 @@ padding-bottom: 150px;
 </div>
 <br>
 
-<div class="copy"> <h3> Copyright ©2025 All rights reserved | This template is made with  by Colorlib</h3></div>
+<div class="copy"> <h3 > Copyright ©2025 All rights reserved | This template is made with  by Colorlib</h3></div>
 </body>
 </html>
