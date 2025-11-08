@@ -12,16 +12,26 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-.lobby{ 
+.home{display: flex;
+  gap: 100px;
+   position: fixed;
+   background-color: #212540;
+   width: 1450px;
    
+   
+ 
+  
+}
+.lobby{ 
+   position: sticky;
    display: flex;
  justify-content: center;
+  
   background-image: url(mercy_files/h1_hero1.jpg.webp)  ;
-  height: 850px;
+  height: 900px;
   background-repeat:  no-repeat;
   justify-content: space-around;
- 
+   
   
 }
 
@@ -188,8 +198,10 @@ padding-bottom: 150px;
 }
   </style>
 </head>
-<body>
+<body> 
+  
   <div class="lobby"> 
+    <nav class="home"> 
     <div><img src="mercy_files/logo2_footer.png" alt=""> </div>
     <div class="HEADINGS"> <ul>
       <li> HOME</li>
@@ -204,7 +216,9 @@ padding-bottom: 150px;
     <div > 
       <button id="sk">  MAKE A DONATION</button>
     </div>
+    </nav>
   </div>
+  
 <br> 
   
   <div class="lobby2"> 
