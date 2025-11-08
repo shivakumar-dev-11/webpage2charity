@@ -1,112 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> mercy</title> 
-    <style>
-       body{ 
-        background-image:url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp);
-       
-        background-repeat: no-repeat;
-       
-       }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charity</title>
+  <style> 
+.lobby{ display: flex;
+ justify-content: center;
+  background-image: url(mercy_files/h1_hero1.jpg.webp)  ;
+  height: 850px;
+  background-repeat:  no-repeat;
+  justify-content: space-around;
+  
+  
+}
 
-      .parent { 
-        justify-content: space-around;
+.HEADINGS ul{ display: flex;
+  gap: 40px;
+  list-style: none;
+  color: orangered;
+}
+ .HEADINGS UL :hover{
+  cursor: pointer;
+  color: whitesmoke;
+  transition: 0.5S;
+ }
 
-       display: flex;
-       /* background-image:url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jp */
-     
- 
- 
-    }     
-     
-
-     .navbar {  
-        display: flex;
-       gap: 20px;
-        }
-    
-
-      .buttons { 
-        display: flex;
-        gap: 70px;
-        align-items: center;
-       
-        }
-
-     #kk { color: white; } 
-      #kk:hover { color: orangered;
-          transition: all 0.3s;
-          cursor: pointer;
-            }
-
-   #sk {background-color: orangered;
+  #sk {padding: 25px 40px;
+    background-color: orangered;
     border-radius: 10px;}
-    #sk:hover { background-color: white;
-          transition: all 0.3s;
-          cursor: pointer;
-            }
-    #hbutton {align-items: top;
-        background-color: transparent;
-       color: white; 
-        border-radius: 10px;
-         }
-
-    #hbutton:hover { background-color: grey;
-          transition: all 0.3s;
-          cursor: pointer;
-            }
-    #wbutton {background-color: transparent;
-       color: white; 
-        border-radius: 10px;
-         }
-    #wbutton:hover { background-color: grey;
-          transition: all 0.3s;
-          cursor: pointer;
-            }
-    #pbutton {background-color: transparent;
-       color: white; 
-        border-radius: 10px;}
-    #pbutton:hover { background-color: grey;
-          transition: all 0.3s;
-          cursor: pointer;
-            }
-    #abutton {background-color: transparent;
-       color: white; 
-        border-radius: 10px;}
-    #abutton:hover { background-color: grey;
-          transition: all 0.3s;
-          cursor: pointer;
-            }
-    #cbutton {background-color: transparent;
-       color: white; 
-        border-radius: 10px;}
-    #cbutton:hover { background-color: grey;
+    #sk:hover { 
+      color: whitesmoke; background-color: transparent;
           transition: all 0.3s;
           cursor: pointer;}
-    
-    </style>
-    
+  #up{
+    color: rgb(119, 168, 46);
+  }
+.lobby2{display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  background-color:#FDF3EB;
+  padding: 60px;
+  
+  bottom: 30px;
+}
+.lobby3{ padding: 100px;
+  padding-bottom: 350px;
+  
+  position: relative;
+
+  
+}
+.img3{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#discover{
+  padding: 25px 30px;
+}
+.row{
+  display: flex;
+  gap: 20px;
+}
+.owner{
+  display: flex;
+  
+}
+.owner1{
+  padding: 100px 100px 80px 200px;
+}
+.content{
+  padding: 200px 100px 80px 30px;
+}
+#ss{
+  padding: 20px 30px;
+}
+.orange{
+  background-color: orangered;
+  padding: 100px;
+text-align: center;
+padding-bottom: 150px;
+}
+.orange1{
+  display: flex;
+  justify-content: space-around;
+}
+#pure:hover{
+  color: whitesmoke;
+  cursor: pointer;
+
+}
+#health:hover{
+  color: whitesmoke;
+  cursor: pointer;
+}
+#education:hover{
+  color: whitesmoke;
+  cursor: pointer;
+}
+.blue{ 
+  padding-bottom: 200px;
+  color: whitesmoke;
+  background-color: #212540;
+  display: flex;
+}
+.vk{
+  list-style: none;
+}
+#roko{background-color: orangered;
+  padding:20px 30px ;
+  border-radius: 5px;
+}
+.copy{
+  text-align: center;
+  color: whitesmoke;
+  background-color: #212540;
+}
+  </style>
 </head>
 <body>
-    <div class="parent"> 
-        <div class="background"> 
-          <img   src=" https://preview.colorlib.com/theme/charitee/assets/img/logo/logo2_footer.png"  >
-         </div >
-         <div class="navbar"> 
-           <button id="hbutton"><h1> HOME</h1></button>
-           <BUTTON id="wbutton"> <H1> WHO WE ARE ? </H1></BUTTON>
-           <button id="pbutton"> <H1> PROGRAMS</H1></button>
-           <button id="abutton"> <H1> ABOUT</H1></button>
-           <BUTTON id="cbutton"> <H1> CONTACT US ;</H1></BUTTON>
-         </div> 
-         <div class="buttons"> 
-         <p id="kk"> contact us 9063171589  </p>
-         <button id="sk"> <h1> DONATION</h1></button>
-         </div>
+  <div class="lobby"> 
+    <div><img src="mercy_files/logo2_footer.png" alt=""> </div>
+    <div class="HEADINGS"> <ul>
+      <li> HOME</li>
+      <li> WHO WE ARE ? </li>
+      <li> ABOUT US </li>
+      <li> contact us: 9063171589</li>
+    </ul>
     </div>
+    <div > 
+      <button id="sk">  MAKE A DONATION</button>
+    </div>
+  </div>
+<br> 
+  
+  <div class="lobby2"> 
+    <div><img src="mercy_files/photo2"></div>
+     <div alpha> <h3 id="up"> upcoming program</h3>
+    <h1> Donate vitamin B12 supply program</h1>
+    <h4> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
+     <div> <button> Donate now</button>
+         <button> View program</button></div>
+  </div>
+
+  </div>
+     <br> 
+     <div class="lobby3"> 
+      <div  class="img3"> <img src="mercy_files/photo3" alt=""></div>
+      <div> <h3> about us </h3>
+         <h1> We are tender heart charity foundation.</h1>
+      <h4> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
+      
+    </div>
+    <div >
+      <button id="discover"> Discover more</button> </div>
+     </div>
+<br> 
+  <div class="row"> 
+      <div>
+        <img src="mercy_files/row-image-1" height="300px"width="450px" >
+        <h1> Help the ecosystems</h1>
+        <h3> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3>
+      </div>
+      <div><img src="mercy_files/row2photo"  height="300px " width="450px">
+      <h1>Donate Vitamin B12 Program</h1>
+    <h3> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3></div>
+      <div><img src="mercy_files/rowimg3.webp"  height="300px " width="450px">
+      <h1> View Savers In Deworm Program</h1>
+    <h3> Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</h3> </div>
+  </div> 
+<br> 
+<div class="owner"> 
+  <div >
+    <div class="owner1"> <img src="mercy_files/owners" alt=""></div>
+  </div>
+    <div class="content"><h3> Helping today</h3>
+  <h1> What we are doing</h1>
+  <h2> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h2>
+  <div > <button id="ss"> Join us today</button></div>
+   </div>
+  
+ 
+</div>
+<br> 
+
+
+<div class="orange"> 
+  <h3> Helping today</h3>
+  <h1> How we help people</h1>
+  <div class="orange1">
+    <div class="food"><img src="mercy_files/food.svg">
+    <h1 id="pure"> Pure Food & Water</h1>
+  <h3>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
+   <div class="food1"> <img src="mercy_files/services2.svg">
+  <h1 id="health">Health & Medicine</h1>
+  <h3> Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
+   <div class="food2"><img src="mercy_files/services3.svg">
+  <h1 id="education"> Education</h1>
+    <h3> Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</h3></div>
+  </div>
+</div>
+<br> 
+<div class="blue"> 
+   <div class="last"> 
+    <img src="mercy_files/logo2_footer.png">
+    <h3> When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua.</h3>
+   
+    </div>
+    <div > 
+      <h1> Navigation</h1>
+
+   <div class="vk"> 
+    <ul>
+     <li> Home</li>
+     <li> About</li>
+     <li> service</li>
+     <li> blog</li>
+     <li> contact</li>
+
+    </ul> 
+   </div>
+  </div>
+
+
+    <div class="us"> 
+      <h1> contact us</h1>
+      <ul> 
+        <li> 4486 Richards Avenue, Modesto CA - 95354</li>
+        <li>209-818-6041</li>
+        <li>charity90@gmail.com</li>
+      </ul>
+    </div>
+    <div> 
+      <h1> support</h1>
+      <h3> When a child gets access to good food, it can change.</h3>
+      <div > <button id="roko"> Join us today </button></div>
+    </div>
+    <hr>
     
+</div>
+</div>
+<br>
+
+<div class="copy"> <h3> Copyright ©2025 All rights reserved | This template is made with  by Colorlib</h3></div>
 </body>
 </html>
